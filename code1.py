@@ -8,7 +8,7 @@ def list_generator1():
      vi = int(input("What is the initial velocity of the particle? "))
      list1 = []
      for a in time1:
-        y_coordinate = yi + vi*a - (1/2)*g*(a**2)
+        y_coordinate = yi + vi*a - (1/2)*g*(a**2)  #formula for calculating the trajectory
         list1.append(y_coordinate)
      for heights in list1:
         a = list1.index(heights)
